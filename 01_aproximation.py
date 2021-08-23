@@ -1,4 +1,4 @@
-objective = int(input('Escoge un numero: '))
+objective = int(input('Type a number: '))
 epsilon = 0.0001
 step = epsilon**2 
 answer = 0.0
