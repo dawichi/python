@@ -1,2 +1,2 @@
-# python_computational_thinking
+# python_intermediate
 Some python notes 
