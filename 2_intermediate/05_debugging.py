@@ -7,8 +7,9 @@ def divisors(num):
 
 def run():
 	try:
-		num = int(input("Entry a integer: "))
-		print(divisors(num))
+		num = input("Entry a integer: ")
+		assert num.isnumeric(), "You must enter a number"
+		print(divisors(int(num)))
 		print("End of program")
 	except ValueError:
 		print("You must enter a number")
