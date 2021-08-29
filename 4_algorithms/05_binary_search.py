@@ -3,7 +3,8 @@ import random
 # Binary search!
 def binary_search(list, start, end, target, steps):
 	steps += 1
-	if target > end: return False, steps
+	if target > end:
+		return False, steps
 	mid = (start + end) // 2
 	if list[mid] == target:
 		return True, steps
