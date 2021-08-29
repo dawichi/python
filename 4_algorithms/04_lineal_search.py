@@ -15,8 +15,8 @@ def search(list, target):
 def run():
 	list_size = int(input('Enter the size of the list: '))
 	target = int(input('Which number will you look for: '))
-
 	list = [random.randint(0, 100) for i in range(list_size)]
+	
 	found = search(list=list, target=target)
 
 	print(list)
