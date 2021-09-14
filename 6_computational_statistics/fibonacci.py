@@ -7,6 +7,8 @@ def fibonacci_recursive(n):
 
 
 # Best solution: memorize the result in a dictionary and now is instant! Even if u calc f(500)
+# The key is to exchange [time] with [space]:
+#   --> you save time when calculating, by saving the results in memotu (space)
 def fibonacci_dynamic(n, memo = {}):
 	if n == 0 or n == 1:
 		return 1
